@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Byteflux</title>
+
+  <link rel="shortcut icon" href="./assets/images/header.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- FIXED SITE HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <!-- Brand / Logo -->
+      <a href="#" class="brand">
+        <div class="brand-logo">
+          <img src="./assets/images/header.png" alt="Byteflux Technologies">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Byteflux Technologies</span>
+          <span class="brand-tagline">Web Development &amp; IT Solutions</span>
+        </div>
+      </a>
+
+      <!-- Main navigation (uses data-nav-link for your script.js) -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Services</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- LAYOUT BELOW HEADER -->
+  <div class="page-layout">
+    <main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+          <!-- Company logo -->
+          <figure class="avatar-box">
+            <img src="./assets/images/Company_Logo.png" alt="Byteflux Technologies" width="80">
+          </figure>
+
+          <div class="info-content">
+            <p class="title">Web Development &amp; IT Solutions</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:bytefluxtechnologies@gmail.com" class="contact-link">
+                  bytefluxtechnologies@gmail.com
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+91-7057748540" class="contact-link">+91-7057748540</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Founded</p>
+                <time datetime="2025-01-01">Since 2025</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Pune, Maharashtra, India</address>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/narendra-khamkar-26870825a" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </aside>
+
+      <!-- RIGHT SIDE: SCROLLABLE CONTENT -->
+      <div class="main-content">
+
+        <!-- ABOUT -->
+        <article class="about active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About Us</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Byteflux Technologies is a web development and IT solutions company based in Pune, Maharashtra.
+              We specialize in building modern, scalable, and user-friendly web applications.
+            </p>
+
+            <p>
+              Our focus is on turning complex business requirements into simple, intuitive digital experiences.
+              We design and develop full-stack platforms, dashboards, and custom tools that are both visually
+              appealing and technically robust, helping our clients grow and operate efficiently.
+            </p>
+          </section>
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What We Do</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX &amp; Web Design</h4>
+                  <p class="service-item-text">
+                    We create clean, responsive interfaces that are easy to use and aligned with your brand.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full-Stack Web Development</h4>
+                  <p class="service-item-text">
+                    High-quality, scalable web applications built with modern stacks.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Product &amp; Brand Assets</h4>
+                  <p class="service-item-text">
+                    Visual assets, layouts, and digital materials to showcase your products and services effectively.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!-- SERVICES -->
+        <article class="resume services" data-page="services">
+
+          <header>
+            <h2 class="h2 article-title">Services</h2>
+          </header>
+
+          <!-- Core Services -->
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="construct-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Core Services</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Custom Web Applications</h4>
+                <p class="timeline-text">
+                  End-to-end development of custom web apps like job portals, matrimonial platforms,
+                  CRMs, and workflow tools with secure authentication, dashboards, and role-based access.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Admin Dashboards &amp; Internal Tools</h4>
+                <span>Data-heavy &amp; Analytics-focused</span>
+                <p class="timeline-text">
+                  We build admin panels, reporting dashboards, and internal tools that help teams manage
+                  users, track activity, monitor KPIs, and automate recurring tasks.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Business Websites &amp; Landing Pages</h4>
+                <span>Brand-focused Web Presence</span>
+                <p class="timeline-text">
+                  Modern, responsive company websites and landing pages that clearly communicate your
+                  services, increase trust, and convert visitors into leads or customers.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">API Development &amp; Integrations</h4>
+                <span>Secure &amp; Scalable APIs</span>
+                <p class="timeline-text">
+                  Design and implementation of REST APIs, third-party integrations (payments, auth,
+                  email, analytics), and microservices that connect different parts of your product.
+                </p>
+              </li>
+
+            </ol>
+
+          </section>
+
+          <!-- Solutions / Use Cases -->
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="layers-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Solutions We Build</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Product Platforms</h4>
+                <span>Matrimonial, Job Portals, LMS</span>
+                <p class="timeline-text">
+                  Platforms with rich user profiles, search &amp; filters, notifications, and secure login
+                  flows tailored for matchmaking, recruitment, and education use cases.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Real-Time &amp; Collaborative Apps</h4>
+                <span>Socket.io &amp; Live Interactions</span>
+                <p class="timeline-text">
+                  Chat systems, live notifications, activity tracking, and collaborative features
+                  powered by WebSockets to keep your users engaged in real time.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Automation &amp; Monitoring Dashboards</h4>
+                <span>Operational Efficiency</span>
+                <p class="timeline-text">
+                  Custom automation panels such as inactive user management, reminder systems, and
+                  workflow tracking to reduce manual work and improve visibility.
+                </p>
+              </li>
+
+            </ol>
+
+          </section>
+
+        </article>
+
+        <!-- PROJECTS -->
+        <article class="portfolio projects" data-page="projects">
+
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web Apps</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Websites</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Apps</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Websites</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item active" data-filter-item data-category="websites">
+                <a href="https://learningmanagementbyteflux.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/LMS.png" alt="Learning Management Site" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Learning Management System</h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="websites">
+                <a href="https://wavernode.vercel.app/workflows">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Waver.png" alt="Waver Workflow Automation" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Waver Workflow Automation</h3>
+                  <p class="project-category">Websites</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web apps">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Nursery.jpg" alt="Nursery Management System" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Nursery Management System</h3>
+                  <p class="project-category">Web Apps</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web apps">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Cloudshare.jpg" alt="CloudShare App" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">CloudShare – Next Generation File Sharing App</h3>
+                  <p class="project-category">Web Apps</p>
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!-- CONTACT -->
+        <article class="contact" data-page="contact" id="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1861.9329946898745!2d73.76489846569426!3d18.646274488633296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1764941359768!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Connect with Byteflux</h3>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+              <!-- Hidden Web3Forms Key -->
+              <input type="hidden" name="access_key" value="20f2cafc-0e9d-4f5e-b420-2535403b94a8">
+
+              <!-- Anti-spam Honeypot -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+
+              <div class="input-wrapper">
+
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full Name"
+                  required
+                  data-form-input>
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email Address"
+                  required
+                  data-form-input>
+              </div>
+
+              <div class="input-wrapper">
+
+                <input
+                  type="text"
+                  name="phone"
+                  class="form-input"
+                  placeholder="Phone Number"
+                  required
+                  data-form-input>
+
+                <input
+                  type="text"
+                  name="company"
+                  class="form-input"
+                  placeholder="Company / Organization (optional)"
+                  data-form-input>
+              </div>
+
+              <div class="input-wrapper">
+
+                <select name="project_type" class="form-input" required>
+                  <option value="">Select Project Type</option>
+                  <option value="web-app">Web Application Development</option>
+                  <option value="business-site">Business Website</option>
+                  <option value="dashboard">Dashboard / Admin Panel</option>
+                  <option value="mern">MERN / Next.js Project</option>
+                  <option value="frontend">Frontend Development (React)</option>
+                  <option value="api">API Development / Integrations</option>
+                </select>
+
+                <select name="budget" class="form-input" required data-form-input>
+                  <option value="" disabled selected>Select Budget Range</option>
+                  <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
+                  <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
+                  <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
+                  <option value="₹1,00,000+">₹1,00,000+</option>
+                </select>
+
+              </div>
+
+              <input
+                type="text"
+                name="deadline"
+                class="form-input"
+                placeholder="Project Deadline (optional)"
+                data-form-input>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Tell us about your project…"
+                required
+                data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+
+            </form>
+
+          </section>
+
+        </article>
+
+      </div> <!-- /.main-content -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2025 Byteflux Technologies. All rights reserved.</p>
+        <p class="footer-meta">Building modern web platforms &amp; real-time solutions.</p>
+      </div>
+    </footer>
+  </div> <!-- /.page-layout -->
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
